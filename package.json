@@ -1,0 +1,27 @@
+{
+  "name": "meet-cute",
+  "version": "0.0.1",
+  "description": "Utilities for parsing KML check-in data from Google and Foursquare to find intersections",
+  "main": "index.js",
+  "engines" : { 
+    "node" : ">=14.18.0" 
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mm-wang/meet-cute.git"
+  },
+  "author": "Margaret Wang",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
