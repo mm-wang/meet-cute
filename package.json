@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Utilities for parsing KML check-in data from Google and Foursquare to find intersections",
   "main": "index.js",
-  "engines" : { 
-    "node" : ">=14.18.0" 
+  "engines": {
+    "node": ">=14.18.0"
   },
   "scripts": {
     "test": "jest",
